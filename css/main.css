@@ -1,43 +1,65 @@
-#inputs,#clickbutton{
+#inputs,
+#clickbutton {
+    text-align: center;
+}
+
+body {
 	text-align: center;
+	background: #95a5a6;
+	height: 100vh;
+	overflow-y: hidden;
 }
 
-body{text-align:center;
+.container{
+	height: 100vh;
 }
 
-#clickArea{
+#clickArea {
     padding: 0px;
 }
 
-#inputStr{
-    width:40% ;
-}
 
-#update{
-	text-align: left;
+
+#update {
+    text-align: left;
 }
 
 .demo-headline {
-padding: 73px 0 40px;
+    padding: 25vh 0 5vh;
 }
 
-#clickArea{
-	top: 0px;
-	bottom: 0px;
-	width: 100%;
-	height: 100%;
+#clickArea {
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
 }
 
-footer{
-position: fixed; !important;
-width: 100%;
-bottom: 0;
-z-index: 5;
-height:50px;
-_position:absolute;
-_top:expression(document.body.scrollTop+document.body.clientHeight-this.clientHeight);
+#inputArea{
+	margin: 5vh auto;
 }
 
-h1{
-	font-family:"微软雅黑";
+#inputStr {
+	width: 80vw;
+	margin: 0 5vw;
+	box-sizing: border-box;
+	height: 2rem;
+	font-size: 16px;
+}
+
+.count{
+	font-size: 1rem
+}
+
+footer {
+    position: fixed !important;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+    height: 50px;
+    position: absolute;
+}
+
+h1 {
+    font-family: "微软雅黑";
 }
